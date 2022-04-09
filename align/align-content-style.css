@@ -1,0 +1,37 @@
+.flex-container {
+  height: 350px;
+  width: 300px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.item {
+  background-color: orange;
+  padding: 0 5px;
+  margin: 5px;
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.stretch {
+  align-content: stretch;
+}
+
+.center {
+  align-content: center;
+}
+
+.flex-start {
+  align-content: flex-start;
+}
+
+.space-around {
+  align-content: space-around;
+}
+
+.space-between {
+  align-content: space-between;
+}
